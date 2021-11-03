@@ -133,6 +133,7 @@ def markov_2(tokens: list):
 if __name__ == "__main__":
     my_book_name = "Crime And Punishment.txt"
     my_tokens = getTokens(my_book_name)
+    print('Количество токенов: ', len(my_tokens), '\n')
 
     markov_1(my_tokens)
     print('\n\n\n')
